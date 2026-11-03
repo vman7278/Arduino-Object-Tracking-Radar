@@ -4,6 +4,12 @@ An Arduino-based system that scans for nearby objects and approximately follows 
 
 This is my **second documented Arduino project**, after an LED reaction-time tester. I built a temporary cardboard mounting bracket to attach the ultrasonic sensor to the rotating servo arm.
 
+## Project demonstration
+
+**[Watch the 26-second radar tracking demo](Radar_Tracking_Demo.mp4)**
+
+This compressed demonstration shows the sensor mounted on the SG90 servo and an object being moved in front of the setup. The video does not show Serial Monitor readings, so those are documented separately below.
+
 ## Features
 
 - Scans across an approximately 20°–160° range to locate nearby objects.
