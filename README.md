@@ -10,6 +10,22 @@ This is my **second documented Arduino project**, after an LED reaction-time tes
 
 This compressed demonstration shows the sensor mounted on the SG90 servo and an object being moved in front of the setup. The video does not show Serial Monitor readings, so those are documented separately below.
 
+## Build photos
+
+These are photographs of the actual proof-of-concept assembly and its wiring, rather than a finished enclosure.
+
+| Sensor and servo assembly | Cardboard mounting bracket |
+| --- | --- |
+| <img src="photos/sensor-servo-front.jpg" alt="Ultrasonic sensor mounted above the SG90 servo" width="320"> | <img src="photos/cardboard-mount.jpg" alt="Side view of the temporary cardboard bracket and servo" width="320"> |
+
+| Breadboard connections | Arduino digital-pin connections |
+| --- | --- |
+| <img src="photos/breadboard-wiring.jpg" alt="Breadboard wiring for the radar prototype" width="320"> | <img src="photos/arduino-digital-pins.jpg" alt="Jumper connections at the Arduino digital pins" width="320"> |
+
+Additional photos: [Arduino power pins](photos/arduino-power-pins.jpg), [servo wire connector](photos/servo-connector.jpg), and [the optional LCD1602 module](photos/lcd1602-back.jpg).
+
+> The LCD1602 appears in the photos as a potential upgrade. **It is not wired into or used by the current working radar build.** The wiring table below describes the intended connections; always verify against the actual pins before powering the hardware.
+
 ## Features
 
 - Scans across an approximately 20°–160° range to locate nearby objects.
